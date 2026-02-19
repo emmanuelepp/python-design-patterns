@@ -1,3 +1,14 @@
+"""
+Builder Pattern:
+
+Separates the construction of a complex object from its representation, allowing the same build process
+to create different variants of the object.
+
+Common uses: building objects with many optional parts/steps (e.g., cars, reports, HTTP requests, configs),
+when you want readable step-by-step construction and to avoid large constructors or many optional parameters.
+"""
+
+
 from abc import ABC, abstractmethod
 
 
